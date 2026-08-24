@@ -1,3 +1,22 @@
+# Ejercicio 08 - removeFromArray
+
+Implementa una función que reciba un array y otros argumentos, elimine dichos argumentos del array original y devuelva el array resultante:
+
+```javascript
+removeFromArray([1, 2, 3, 4], 3); // debería eliminar el 3 y devolver [1, 2, 4]
+```
+
+Intenta utilizar algunos de los métodos integrados de los arrays para resolver este ejercicio.
+
+## Pistas
+
+La primera prueba de este ejercicio es bastante sencilla, pero hay algunos aspectos que conviene considerar (o buscar en Google) para las pruebas posteriores:
+
+- Puedes modificar el array original que pasas a la función o crear un nuevo array para devolverlo como resultado; en cualquier caso, la función debe devolver el array resultante.
+- Cómo eliminar un único elemento de un array.
+- Cómo gestionar múltiples argumentos opcionales en una función de JavaScript.
+- Para más información, consulta la página de MDN sobre [argumentos de funciones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments); desplázate hacia abajo hasta la sección sobre `Array.from` o el operador de propagación (*spread operator*). También puedes consultar la página de MDN sobre [parámetros rest](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).
+
 # Exercise 08 - removeFromArray
 
 Implement a function that takes an array and some other arguments then removes the other arguments from that array, and returns the resulting array:
